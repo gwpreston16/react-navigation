@@ -37,10 +37,10 @@ function App() {
   return (
     <NativeBaseProvider>
         <NavigationContainer>
-        <Stack.Navigator>
-            <Stack.Screen name="Home" component={HomeScreen} />
-            <Stack.Screen name="Welcome" component={WelcomeScreen} />
-        </Stack.Navigator>
+            <Stack.Navigator>
+                <Stack.Screen name="Home" component={HomeScreen} />
+                <Stack.Screen name="Welcome" component={WelcomeScreen} />
+            </Stack.Navigator>
         </NavigationContainer>
     </NativeBaseProvider>
   );
